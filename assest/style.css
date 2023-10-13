@@ -1,0 +1,121 @@
+*{font-family: 'Gabarito', sans-serif;}
+    header{
+    background-color: aquamarine;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar{
+    padding: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+
+}
+.navbar span{
+    color: aliceblue;
+}
+.pac{
+    margin: 20px;
+    gap: 30px;
+    display: flex;
+    font-size: 18px;
+   
+}
+.preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.preview img{
+   padding-top: 100px;
+    margin-top: 55px;
+    width: 500px;
+    height: 500px;
+}
+.prwimg img{
+    width: 300px;
+    height: 300px;
+}
+.preview .t1{
+    font-size: 128px;
+
+}
+.line{
+    width: 140px;
+    height: 4px;
+    background-color: aliceblue;
+}
+.fa-star{
+    color: aliceblue;
+    font-size: 38px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+.t2{
+    padding-top: 15px;
+    font-size: 34px;
+    padding-bottom: 60px;
+}
+.line2{
+    width: 140px;
+    height: 4px;
+    background-color: rgb(11, 58, 99);
+}
+
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portf{
+    font-size: 34px;
+    padding-top: 60px;
+    color: rgb(5, 74, 134);
+    padding-bottom: 30px;
+    
+}
+.portfolio i{
+    color: rgb(5, 74, 134);
+    
+}
+.iconsp{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;}
+
+.imgs{
+    display: flex;
+max-width: 1600px;
+width: 100%;
+gap:20px;
+
+    align-items: center;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}  
+.imgs1 img{
+    height: 350px;
+    width: 500px;
+} 
